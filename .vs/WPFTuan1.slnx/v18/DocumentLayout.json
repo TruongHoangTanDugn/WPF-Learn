@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\signuplayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\signuplayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\loginlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\loginlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\signuplayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\signuplayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\loginlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\loginlayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\homelayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\homelayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\homelayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\homelayout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\layout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\layout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpf_layout\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5640C7CF-CD75-4B8B-982F-64E3443C0B3B}|WPF_Layout\\WPF_Layout.csproj|solutionrelative:wpf_layout\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\aboutme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\aboutme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\wpftuan1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\wpftuan1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|c:\\users\\hp\\source\\repos\\wpftuan1\\wpftuan1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE3F8C4-A7CD-4B02-7FF3-642C7711C390}|WPFTuan1\\WPFTuan1.csproj|solutionrelative:wpftuan1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAN4UAAAAAAAAAAAnwAQVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-15T10:20:45.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "signupLayout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\signupLayout.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Layout\\signupLayout.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\signupLayout.xaml.cs",
+              "RelativeToolTip": "WPF_Layout\\signupLayout.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAewB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T09:19:21.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeLayout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\HomeLayout.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Layout\\HomeLayout.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\HomeLayout.xaml.cs",
+              "RelativeToolTip": "WPF_Layout\\HomeLayout.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAjwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T09:18:02.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeLayout.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\HomeLayout.xaml",
+              "RelativeDocumentMoniker": "WPF_Layout\\HomeLayout.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\HomeLayout.xaml",
+              "RelativeToolTip": "WPF_Layout\\HomeLayout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T09:11:35.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginLayout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\LoginLayout.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Layout\\LoginLayout.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\LoginLayout.xaml.cs",
+              "RelativeToolTip": "WPF_Layout\\LoginLayout.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAWwBQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:50:51.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginLayout.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\LoginLayout.xaml",
+              "RelativeDocumentMoniker": "WPF_Layout\\LoginLayout.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\LoginLayout.xaml",
+              "RelativeToolTip": "WPF_Layout\\LoginLayout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T08:49:22.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WPFTuan1\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\AssemblyInfo.cs",
+              "RelativeToolTip": "WPFTuan1\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T08:40:25.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\App.xaml",
+              "RelativeDocumentMoniker": "WPF_Layout\\App.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\App.xaml",
+              "RelativeToolTip": "WPF_Layout\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T08:22:10.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "signupLayout.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\signupLayout.xaml",
+              "RelativeDocumentMoniker": "WPF_Layout\\signupLayout.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\signupLayout.xaml",
+              "RelativeToolTip": "WPF_Layout\\signupLayout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T07:35:01.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Layout.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\Layout.xaml",
+              "RelativeDocumentMoniker": "WPFTuan1\\Layout.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\Layout.xaml",
+              "RelativeToolTip": "WPFTuan1\\Layout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T07:24:11.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_Layout\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_Layout\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T07:19:58.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Layout\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPF_Layout\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF_Layout\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T07:19:57.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "aboutme.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\aboutme.xaml",
+              "RelativeDocumentMoniker": "WPFTuan1\\aboutme.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\aboutme.xaml",
+              "RelativeToolTip": "WPFTuan1\\aboutme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-25T03:45:56.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WPFTuan1.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\WPFTuan1.csproj",
+              "RelativeDocumentMoniker": "WPFTuan1\\WPFTuan1.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\WPFTuan1.csproj",
+              "RelativeToolTip": "WPFTuan1\\WPFTuan1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-24T08:55:34.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "signup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\signup.xaml.cs",
+              "RelativeDocumentMoniker": "WPFTuan1\\signup.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\signup.xaml.cs",
+              "RelativeToolTip": "WPFTuan1\\signup.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:21:35.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\App.xaml",
+              "RelativeDocumentMoniker": "WPFTuan1\\App.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\App.xaml",
+              "RelativeToolTip": "WPFTuan1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-24T08:12:41.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "signup.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\signup.xaml",
+              "RelativeDocumentMoniker": "WPFTuan1\\signup.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\signup.xaml",
+              "RelativeToolTip": "WPFTuan1\\signup.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-24T08:12:08.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFTuan1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\MainWindow.xaml",
+              "RelativeToolTip": "WPFTuan1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-24T07:24:23.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFTuan1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\WPFTuan1\\WPFTuan1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFTuan1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T07:24:21.453Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
