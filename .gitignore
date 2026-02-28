@@ -1,0 +1,67 @@
+# ==========================================
+# PHẦN 1: VISUAL STUDIO & WPF (.NET)
+# ==========================================
+# Các thư mục chứa file biên dịch tạm và kết quả build
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esult*/
+
+# Thư mục cấu hình riêng của Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Các file tạm của MSBuild và NuGet
+*.cache
+*.swp
+*.bak
+/packages/
+/TestResults/
+
+# ==========================================
+# PHẦN 2: PYTHON & AI DEVELOPMENT
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Môi trường ảo (Virtual Environments) - RẤT QUAN TRỌNG
+.venv/
+venv/
+ENV/
+env/
+bin/
+include/
+lib/
+share/
+
+# Thư mục Jupyter Notebook tạm
+.ipynb_checkpoints/
+
+# Các file log và phân tích
+*.log
+.pytest_cache/
+.coverage
+.cache/
+
+# ==========================================
+# PHẦN 3: AI & BIG DATA SPECIFIC (DÀNH CHO DỰ ÁN DL/CV)
+# ==========================================
+# Không đẩy dữ liệu thô lên GitHub
+data/
+datasets/
+temp_data/
+
+# Không đẩy các file trọng số Model nặng (Nên dùng Git LFS hoặc DVC)
+*.pth
+*.h5
+*.weights
+*.onnx
+*.pkl
+
+# File cấu hình chứa thông tin nhạy cảm (API Keys, Local Path)
+.env
+local_config.py
