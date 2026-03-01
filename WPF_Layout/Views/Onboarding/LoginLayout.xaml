@@ -10,16 +10,16 @@
         <Label Content="Login" FontStretch="UltraCondensed" FontFamily="VNI-Bodon-Poster" FontSize="30" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="290,45,0,0" VerticalAlignment="Top" Height="58" Width="110"/>
 
         <Label Content="Email"  HorizontalAlignment="Left" FontFamily=".VnArabia" Foreground="AntiqueWhite" Margin="289,90,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtEmail"  HorizontalAlignment="Center" Margin="0,121,0,0" FontFamily=".VnArabia" TextWrapping="Wrap" Text="username@gmail.com" Foreground="LightGray" VerticalAlignment="Top" Width="222" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtEmail"  HorizontalAlignment="Center" Margin="0,121,0,0" FontFamily=".VnArabia" TextWrapping="Wrap" Text="username@gmail.com" Foreground="LightGray" VerticalAlignment="Top" Width="222" TextChanged="EmailBox"/>
 
         <Label Content="Password" Foreground="AntiqueWhite" FontFamily=".VnArabia" HorizontalAlignment="Left" Margin="290,156,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,182,0,0" TextWrapping="Wrap" FontFamily=".VnArabia" Text="Password" Foreground="LightGray" VerticalAlignment="Top" Width="221"/>
-        <Button x:Name="buttonForgetPass" Content="Forget Password?" BorderBrush="Transparent" Foreground="AntiqueWhite" Background="CornflowerBlue" HorizontalAlignment="Left" Margin="290,0,0,0" FontFamily=".VnArabia" VerticalAlignment="Center" Click="Button_Click"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,182,0,0" FontFamily=".VnArabia" Foreground="LightGray" VerticalAlignment="Top" Width="221" PasswordChanged="PasswordBox"/>
+        <Button x:Name="buttonForgetPass" Content="Forget Password?" BorderBrush="Transparent" Foreground="AntiqueWhite" Background="CornflowerBlue" HorizontalAlignment="Left" Margin="290,0,0,0" FontFamily=".VnArabia" VerticalAlignment="Center" Click="ForgetPassButton"/>
 
-        <Button x:Name="buttonSignin" Content="Sign in" FontFamily=".VnArabia" FontSize="20" BorderBrush="Transparent" Foreground="AntiqueWhite" Background ="MidnightBlue" HorizontalAlignment="Left" Margin="290,244,0,0" VerticalAlignment="Top" Width="236" Click="Button_Click_1"/>
+        <Button x:Name="buttonSignin" Content="Sign in" FontFamily=".VnArabia" FontSize="20" BorderBrush="Transparent" Foreground="AntiqueWhite" Background ="MidnightBlue" HorizontalAlignment="Left" Margin="290,244,0,0" VerticalAlignment="Top" Width="236" Click="SignInButton"/>
         <TextBox HorizontalAlignment="Left" Margin="356,280,0,0" TextWrapping="Wrap" Text="Or continue with" Foreground="AntiqueWhite" Background="CornflowerBlue" VerticalAlignment="Top" BorderBrush="Transparent" Width="120"/>
         <Label Content="Don't have an account?" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="289,386,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="buttonRegister" Content="Register for free" Foreground="AntiqueWhite"  Background="CornflowerBlue" HorizontalAlignment="Left" Margin="423,389,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name="buttonRegister" Content="Register for free" Foreground="AntiqueWhite"  Background="CornflowerBlue" HorizontalAlignment="Left" Margin="423,389,0,0" VerticalAlignment="Top" Click="RegisterButton"/>
         <StackPanel Orientation="Horizontal" Margin="280,300,230,70">
             <Image x:Name="imgFB" Source="C:\Users\HP\OneDrive\Pictures\logo\download.png" Height="90" Width="90"/>
             <Image x:Name="imgGG" Source="C:\Users\HP\OneDrive\Pictures\logo\download (1).png" Height="50" Width="58"/>

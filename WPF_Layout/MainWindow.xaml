@@ -6,5 +6,8 @@
         xmlns:local="clr-namespace:WPF_Layout"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Source="LoginLayout.xaml"/>
+    <Frame x:Name="MainFrame" 
+           Source="/Views/Onboarding/LoginLayout.xaml"
+           NavigationUIVisibility="Hidden" >
+    </Frame>
 </Window>
