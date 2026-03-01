@@ -16,6 +16,11 @@ namespace WPF_Layout.Repositories
             _context.Users.Add(user);
             _context.SaveChanges();
         }
+        public void Remove(User user)
+        {
+            _context.Users.Remove(user);
+            _context.SaveChanges();
+        }
 
         public bool ExistsByUsername(string email)
         {

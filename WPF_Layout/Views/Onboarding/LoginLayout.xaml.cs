@@ -35,7 +35,7 @@ namespace WPF_Layout
 
             if(string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
-                MessageBox.Show("Vui lòng nhập đầy đủ thông tin.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Please enter username and password completely and correctly", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
@@ -43,7 +43,7 @@ namespace WPF_Layout
 
             if(user == null || user.Password != password)
             {
-                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.", "Sign in Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Invalid username or password", "Sign in Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
             NavigationService.Navigate(new HomeLayout(user));
@@ -65,7 +65,7 @@ namespace WPF_Layout
 
         private void ForgetPassButton(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Chưa làm xong phần Forget Password.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show("Unimplemented Feature or Page", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
 }

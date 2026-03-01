@@ -11,6 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WPF_Layout.Models;
+using WPF_Layout.Repositories;
 
 namespace WPF_Layout.Views.Home
 {
@@ -20,7 +21,7 @@ namespace WPF_Layout.Views.Home
     public partial class HomeLayout : Page
     {
         private User user;
-
+        private UserRepository _userRepository = new();
         public HomeLayout()
         {
             InitializeComponent();
@@ -31,6 +32,23 @@ namespace WPF_Layout.Views.Home
         {
             InitializeComponent();
             this.user = user;
+        }
+
+        private void LogOutButton(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
+        }
+
+        private void DeleteAccountButton(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("Delete this account?", "Confirm delete", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+            if (result == MessageBoxResult.Yes)
+            {
+                MessageBox.Show("Account deleted.", "Deleted", MessageBoxButton.OK, MessageBoxImage.Information);
+                _userRepository.Remove(user);
+                if (NavigationService != null && NavigationService.CanGoBack)
+                    NavigationService.GoBack();
+            }
         }
     }
 }

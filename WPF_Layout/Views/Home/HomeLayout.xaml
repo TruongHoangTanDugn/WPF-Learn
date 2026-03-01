@@ -8,13 +8,41 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="HomeLayout">
 
-    <Grid Background="White">
-        <StackPanel Orientation="Vertical" Margin="5" VerticalAlignment="Stretch">
-            <StackPanel Orientation="Horizontal">
-                <Label Content="Home" FontSize="25" FontWeight="Bold" Foreground="Black" BorderBrush="Transparent"></Label>
-                <Button Content="Log Out" HorizontalAlignment="Right"></Button>
-            </StackPanel>
-            <Label Content="Welcome to the Home Page!" HorizontalAlignment="Center" Foreground="DarkSlateGray" FontSize="20"></Label>
+    <Grid Background="CadetBlue">
+        <StackPanel Orientation="Vertical">
+            <Grid Height="45" Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" x:Name = "HomeLabel" FontFamily=".VnCommercial ScriptH"  HorizontalAlignment="Center" FontSize="25" Content = "Home"></Label>
+                <Button Grid.Column="1" Content="My Network" BorderBrush="Azure"  FontFamily=".VnBodoni"></Button>
+                <Button Grid.Column="2" Content="Jobs" FontFamily=".VnBodoni"></Button>
+                <Button Grid.Column="4" x:Name = "buttonLogOut" Content = "Log out" FontFamily=".VnBodoni" Height="45" VerticalAlignment="Top" Click="LogOutButton"></Button>
+                <Button Grid.Column="5" x:Name = "buttonDeleteAcc" Content = "Delete account" FontFamily=".VnBodoni" Click="DeleteAccountButton"></Button>
+
+            </Grid>
+
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+            </Grid>
         </StackPanel>
 
     </Grid>
