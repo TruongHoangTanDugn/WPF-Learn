@@ -43,7 +43,7 @@
                         AutomationProperties.Name="Forget Password"
                         HorizontalAlignment="Left"
                         Padding="0,5" />
-                    <Button Content="Sign in" Background="MidnightBlue" Foreground="White" Height="45" FontWeight="Bold"/>
+                    <Button x:Name="buttonSignIn" Content="Sign in" Background="MidnightBlue" Foreground="White" Height="45" FontWeight="Bold" Click="SignInButton"/>
 
                     <TextBlock Text="Or continue with" Foreground="White" HorizontalAlignment="Center"/>
                     <!-- Register Section -->
@@ -59,16 +59,16 @@
                                />
 
                             <Button x:Name="buttonRegister"
-                        Content="Register for free"
-                            Foreground="AntiqueWhite"
-                            Background="CornflowerBlue"
-                            BorderBrush="Transparent"
-                            FontFamily=".VnArabia"
-                            Click="RegisterButton"
-                            ToolTip="Create a new account"
-                            AutomationProperties.Name="Register for free"
-                            Padding="8,5"
-                            />
+                                Content="Register for free"
+                                Foreground="AntiqueWhite"
+                                Background="CornflowerBlue"
+                                BorderBrush="Transparent"
+                                FontFamily=".VnArabia"
+                                Click="RegisterButton"
+                                ToolTip="Create a new account"
+                                AutomationProperties.Name="Register for free"
+                                Padding="8,5"
+                                />
                         </StackPanel>
             </Grid>
         </Viewbox>

@@ -5,38 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Layout"
         mc:Ignorable="d"
-        Title="signupLayout" Height="450" Width="800">
+        Title="signupLayout" MinHeight="450" MinWidth="800">
     <Grid Background="CadetBlue">
-        <StackPanel Orientation="Vertical" Margin="5" VerticalAlignment="Stretch">
-            <Button Click="BackToLoginClick" Content="Back to Login" VerticalAlignment="Top" HorizontalAlignment="Left"></Button>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Label Content="Linked"  FontSize="25" FontWeight="Bold" Foreground="White" BorderBrush="Transparent"></Label>
-                <Label Content="in" FontWeight="Bold" FontSize="25" Background="White" Foreground="CadetBlue" Height="Auto" BorderBrush="Transparent"></Label>
+        <Viewbox Stretch ="Uniform">
+            <StackPanel Orientation="Vertical" Height="Auto" Width="Auto"  VerticalAlignment="Stretch">
+                <Button Click="BackToLoginClick" Content="Back to Login" VerticalAlignment="Top" HorizontalAlignment="Left"></Button>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Label Content="Linked"  FontSize="25" FontWeight="Bold" Foreground="White" BorderBrush="Transparent"></Label>
+                    <Label Content="in" FontWeight="Bold" FontSize="25" Background="White" Foreground="CadetBlue" Height="Auto" BorderBrush="Transparent"></Label>
+                </StackPanel>
+                <Label HorizontalAlignment="Center" Foreground="FloralWhite" FontSize="20" Content="Make the most of your professional life"></Label>
+                <StackPanel Background="LightGray" VerticalAlignment="Stretch" Margin="200, 10, 200, 10">
+                    <StackPanel Margin="10, 2, 10, 2" Orientation="Vertical">
+                        <Label Content="First Name" Foreground="DarkSlateGray"></Label>
+                        <TextBox x:Name="SignUpFirstName" Height="33" TextChanged="FirstNameBox"></TextBox>
+                    </StackPanel>
+                    <StackPanel Margin="10, 2, 10, 2" Orientation="Vertical">
+                        <Label Content="Last Name" Foreground="DarkSlateGray"></Label>
+                        <TextBox x:Name="SignUpLastName" Height="33" TextChanged="LastNameBox"></TextBox>
+                    </StackPanel>
+                    <StackPanel Margin="10, 2, 10, 2" Orientation="Vertical">
+                        <Label Content="Email" Foreground="DarkSlateGray"></Label>
+                        <TextBox x:Name="SignUpEmail" Height="33" TextChanged="EmailBox"></TextBox>
+                    </StackPanel>
+                    <StackPanel Margin="10, 2, 10, 2" Orientation="Vertical">
+                        <Label Content="Password (6 or more characters)" Foreground="DarkSlateGray"></Label>
+                        <TextBox x:Name="SignUpPassword" Height="33" TextChanged="PasswordBox"></TextBox>
+                    </StackPanel>
+                    <StackPanel Margin="10, 2, 10, 2" Orientation="Horizontal">
+                        <Label Content="By Clicking Join now, you agree to LinkedIn's" Foreground="LightSlateGray"></Label>
+                        <Button x:Name="UserAgreementButton" Content="User Agreement"  Background="Transparent" BorderBrush="Transparent" Foreground="Blue"></Button>
+                    </StackPanel>
+                    <Button x:Name="SignUpButton" Content="Join now" Background="DarkCyan" Foreground="White" FontSize="16" Margin="10, 10, 10, 10" Height="40" Click="SignUpButton_Click"></Button>
+                </StackPanel>
             </StackPanel>
-            <Label HorizontalAlignment="Center" Foreground="FloralWhite" FontSize="20" Content="Make the most of your professional life"></Label>
-            <StackPanel Background="LightGray" VerticalAlignment="Stretch" Margin="200, 10, 200, 10">
-                <StackPanel Margin="10, 2, 10, 2" Orientation="Vertical">
-                    <Label Content="First Name" Foreground="DarkSlateGray"></Label>
-                    <TextBox x:Name="SignUpFirstName" Height="33" TextChanged="FirstNameBox"></TextBox>
-                </StackPanel>
-                <StackPanel Margin="10, 2, 10, 2" Orientation="Vertical">
-                    <Label Content="Last Name" Foreground="DarkSlateGray"></Label>
-                    <TextBox x:Name="SignUpLastName" Height="33" TextChanged="LastNameBox"></TextBox>
-                </StackPanel>
-                <StackPanel Margin="10, 2, 10, 2" Orientation="Vertical">
-                    <Label Content="Email" Foreground="DarkSlateGray"></Label>
-                    <TextBox x:Name="SignUpEmail" Height="33" TextChanged="EmailBox"></TextBox>
-                </StackPanel>
-                <StackPanel Margin="10, 2, 10, 2" Orientation="Vertical">
-                    <Label Content="Password (6 or more characters)" Foreground="DarkSlateGray"></Label>
-                    <TextBox x:Name="SignUpPassword" Height="33" TextChanged="PasswordBox"></TextBox>
-                </StackPanel>
-                <StackPanel Margin="10, 2, 10, 2" Orientation="Horizontal">
-                    <Label Content="By Clicking Join now, you agree to LinkedIn's" Foreground="LightSlateGray"></Label>
-                    <Button x:Name="UserAgreementButton" Content="User Agreement"  Background="Transparent" BorderBrush="Transparent" Foreground="Blue"></Button>
-                </StackPanel>
-                <Button x:Name="SignUpButton" Content="Join now" Background="DarkCyan" Foreground="White" FontSize="16" Margin="10, 10, 10, 10" Height="40" Click="SignUpButton_Click"></Button>
-            </StackPanel>
-        </StackPanel>
+        </Viewbox>
     </Grid>
 </Page>
