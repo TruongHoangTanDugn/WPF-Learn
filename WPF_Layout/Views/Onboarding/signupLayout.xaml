@@ -27,19 +27,19 @@
                     <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="Auto">
                         <StackPanel  Orientation="Vertical">
                             <Label Content="First Name" Foreground="DarkSlateGray"></Label>
-                            <TextBox x:Name="SignUpFirstName" Height="33" TextChanged="FirstNameBox"></TextBox>
+                            <TextBox x:Name="SignUpFirstName" Height="33" VerticalContentAlignment="Center" TextChanged="FirstNameBox"></TextBox>
                         </StackPanel>
                         <StackPanel Orientation="Vertical">
                             <Label Content="Last Name" Foreground="DarkSlateGray"></Label>
-                            <TextBox x:Name="SignUpLastName" Height="33" TextChanged="LastNameBox"></TextBox>
+                            <TextBox x:Name="SignUpLastName" Height="33" VerticalContentAlignment="Center" TextChanged="LastNameBox"></TextBox>
                         </StackPanel>
                         <StackPanel Orientation="Vertical">
                             <Label Content="Email" Foreground="DarkSlateGray"></Label>
-                            <TextBox x:Name="SignUpEmail" Height="33" TextChanged="EmailBox"></TextBox>
+                            <TextBox x:Name="SignUpEmail" Height="33" VerticalContentAlignment="Center" TextChanged="EmailBox"></TextBox>
                         </StackPanel>
                         <StackPanel Orientation="Vertical">
                             <Label Content="Password (6 or more characters)" Foreground="DarkSlateGray"></Label>
-                            <TextBox x:Name="SignUpPassword" Height="33" TextChanged="PasswordBox"></TextBox>
+                            <TextBox x:Name="SignUpPassword" Height="33" VerticalContentAlignment="Center" TextChanged="PasswordBox"></TextBox>
                         </StackPanel>
                         <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
                             <Label Content="By Clicking Join now, you agree to LinkedIn's" FontSize="15" HorizontalAlignment="Center" Foreground="LightSlateGray"></Label>
