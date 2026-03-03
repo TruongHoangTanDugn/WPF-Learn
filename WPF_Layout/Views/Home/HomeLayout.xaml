@@ -12,18 +12,18 @@
         <StackPanel Orientation="Vertical">
             <Grid Height="45" VerticalAlignment="Center">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Label Grid.Column="0" x:Name = "HomeLabel" FontFamily=".VnCommercial ScriptH"  HorizontalAlignment="Center" FontSize="25" Content = "Home"></Label>
-                <Button Grid.Column="1" Content="My Network" BorderBrush="Azure"  FontFamily=".VnBodoni"></Button>
-                <Button Grid.Column="2" Content="Jobs" FontFamily=".VnBodoni"></Button>
-                <Button Grid.Column="4" x:Name = "buttonLogOut" Content = "Log out" FontFamily=".VnBodoni" Height="45" VerticalAlignment="Top" Click="LogOutButton"></Button>
-                <Button Grid.Column="5" x:Name = "buttonDeleteAcc" Content = "Delete account" FontFamily=".VnBodoni" Click="DeleteAccountButton"></Button>
+                <Label Grid.Column="0" x:Name = "HomeLabel" FontFamily=".VnCommercial ScriptH"  HorizontalAlignment="Center" FontSize="50" Content = "🏚️Home"></Label>
+                <Button Grid.Column="1" Content="My Network" BorderBrush="Transparent" Background="CadetBlue" FontFamily=".VnBodoni"></Button>
+                <Button Grid.Column="2" Content="Jobs" Background="CadetBlue" FontFamily=".VnBodoni"></Button>
+                <Button Grid.Column="4" x:Name = "buttonLogOut" Content = "Log out" FontFamily=".VnBodoni" Background="CadetBlue" Height="45" VerticalAlignment="Top" Click="LogOutButton"></Button>
+                <Button Grid.Column="5" x:Name = "buttonDeleteAcc" Content = "Delete account" FontFamily=".VnBodoni" Background="CadetBlue" Click="DeleteAccountButton"></Button>
 
             </Grid>
 
@@ -36,11 +36,11 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="50"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="4*"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
             </Grid>
         </StackPanel>
