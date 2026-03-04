@@ -48,6 +48,7 @@
                         <Button x:Name="SignUpButton" Content="Join now" Background="DarkCyan" Foreground="White" FontSize="16" Height="40" ToolTip="Successfully create an account and Go back to Log in" Click="SignUpButton_Click"></Button>
                     </StackPanel>
                 </Grid>
+                <Label Content="Click now to be the member of our community" FontSize="18" Foreground="AntiqueWhite" HorizontalAlignment="Center"></Label>
                 
             </StackPanel>
         </Viewbox>
