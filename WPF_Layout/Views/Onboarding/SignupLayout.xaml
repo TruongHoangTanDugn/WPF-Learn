@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Layout"
         mc:Ignorable="d"
-        Title="signupLayout" MinHeight="450" MinWidth="800">
+        Title="signupLayout" MinHeight="350" MinWidth="800">
     <Grid Background="CadetBlue">
         <Viewbox Stretch ="Uniform">
             <StackPanel Orientation="Vertical" Height="Auto" Width="Auto"  VerticalAlignment="Stretch">
